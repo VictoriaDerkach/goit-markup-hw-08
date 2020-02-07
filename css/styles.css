@@ -123,12 +123,12 @@ section {
   color: var(--title-font-color);
 }
 
-.tel-icon::before {
+.contact-info__link--tel-icon::before {
   content: url(../images/telephone.png);
   margin-right: 5px;
 }
 
-.mail-icon::before {
+.contact-info__link--mail-icon::before {
   content: url(../images/envelop.png);
   margin-right: 10px;
 }
@@ -331,20 +331,20 @@ main {
   animation-iteration-count: infinite;
 }
 
-.settings-icon::before {
+.section-about__title--settings-icon::before {
   content: url(../images/settings.png);
 }
 
-.moneyback-icon::before {
+.section-about__title--moneyback-icon::before {
   content: url(../images/moneyback.png);
 }
 
-.worldwide-icon::before {
+.section-about__title--worldwide-icon::before {
   content: url(../images/worldwide.png);
 }
 
-.worldwide2-icon::before {
-  content: url(../images/worldwide2.png);
+.section-about__title--compass-icon::before {
+  content: url(../images/compass.png);
 }
 
 .section-about__paragraph {
@@ -492,19 +492,19 @@ main {
   background-color: var(--link-font-color);
 }
 
-.heart-icon {
+.overlay-card__button--heart-icon {
   background-image: url(../images/heart.png);
 }
 
-.arrows-icon {
+.overlay-card__button--arrows-icon {
   background-image: url(../images/arrows2.png);
 }
 
-.clock-icon {
+.overlay-card__button--clock-icon {
   background-image: url(../images/clock.png);
 }
 
-.basket-icon {
+.overlay-card__button--basket-icon {
   background-image: url(../images/basket.png);
   width: 164px;
   height: 47px;
